@@ -36,9 +36,8 @@ Tables created successfllyyy
  insert into Grade_Master values('M7','Grade7',7001,8000);
 
 
-insert into User_Master values('189006','Urvashi','urvashi','Admin');
-insert into User_Master values('189007','Archit','archit','Manager');
-insert into User_Master values('189008','Ram','ram','Employee');
+insert into User_Master values('100001','Admin','admin','Admin');
+
  
 
 
