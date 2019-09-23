@@ -16,10 +16,7 @@ increment by 10
 maxvalue 2001
 nocycle;
 
-create table Leave_History(Leave_Id number, Emp_id VARCHAR2(6), leave_balance number, 
-noofdays_applied number, 
-date_from date, date_to date, status varchar2(20), CONSTRAINT check_status check (status in ('applied','approved','rejected')), 
-CONSTRAINT check_leave_balance check (leave_balance>=0), CONSTRAINT foreign_key_empid foreign key (Emp_id) references Employee(Emp_ID))  ;
+create table Leave_History(Leave_Id number, Emp_id VARCHAR2(6), Emp_Name VARCHAR2(40), leave_balance number, noofdays_applied number, date_from date, date_to date, status varchar2(20), CONSTRAINT check_status check (status in ('applied','approved','rejected')), CONSTRAINT check_leave_balance check (leave_balance>=0), CONSTRAINT foreign_key_empid foreign key (Emp_id) references Employee(Emp_ID)) ;
 
 
 Leave_Id should be populated from a sequence.
