@@ -35,11 +35,14 @@ Tables created successfllyyy
  insert into Grade_Master values('M6','Grade6',6001,7000);
  insert into Grade_Master values('M7','Grade7',7001,8000);
 
-
 insert into User_Master values('100001','Admin','admin','Admin');
-
- 
-
+insert into User_Master values('190001','Archit','archit','Manager');
+insert into User_Master values('190002','Shweta','shweta','Manager');
+insert into User_Master values('190003','Sivan','sivan','Manager');
+insert into User_Master values('190004','Silva','silva','Manager');
+insert into User_Master values('190005','Sergio','sergio','Manager');
+insert into User_Master values('190006','Raheem','raheem','Manager');
+insert into User_Master values('190007','Bernardo','bernardo','Manager');
 
 insert into Department values(10,'Accounting and Finance');
 insert into Department values(20,'Marketing');
@@ -50,5 +53,10 @@ insert into Department values(60,'Engineering');
 insert into Department values(70,'Operations');
 
 
-
-
+insert into employee values('190001','Archit','Khandelwal','12-DEC-82','12-JAN-03',10,'M5','Manager',5500,'M','S','Pune',9898876754,'');
+insert into employee values('190002','Shweta','Khandelwal','12-DEC-81','12-JAN-03',20,'M5','Manager',5500,'F','S','Mumbai',9845876754,'');
+insert into employee values('190003','Sivan','Khandelwal','10-DEC-83','12-JAN-03',30,'M5','Manager',5500,'M','S','Hyderabad',9858876754,'');
+insert into employee values('190004','Silva','Silva','10-DEC-80','12-JAN-03',40,'M5','Manager',5570,'M','S','Hyderabad',9895576754,'');
+insert into employee values('190005','Sergio','Ageuro','12-DEC-79','12-JAN-03',50,'M5','Manager',5500,'M','S','Pune',9896676754,'');
+insert into employee values('190006','Raheem','Sterling','12-DEC-80','12-JAN-03',60,'M5','Manager',5300,'M','S','Mumbai',9897876754,'');
+insert into employee values('190007','Bernardo','Silva','12-DEC-83','12-JAN-03',70,'M5','Manager',5900,'M','S','Pune',9898776754,'');
